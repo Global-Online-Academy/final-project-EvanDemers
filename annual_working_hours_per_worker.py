@@ -25,6 +25,7 @@ for i in dict_annual_working_hours_per_worker:
     dict_annual_working_hours_per_worker[i]/=howmanytimesdoesitappear[i]
     dict_annual_working_hours_per_worker[i] = int(dict_annual_working_hours_per_worker[i])
 
+#Returns a dictionary. Country: Hours
 def get():
     global dict_annual_working_hours_per_worker
     return dict_annual_working_hours_per_worker

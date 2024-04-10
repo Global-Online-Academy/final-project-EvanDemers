@@ -27,6 +27,11 @@ y_predicted = [slope*i + intercept  for i in x]
 
 f.line(x,y_predicted,color='red')
 
+#labels
+f.title = "Annual Working Hours per Country vs. General Happines per Country"
+f.xaxis.axis_label = "Average Annual Working Hours per Worker per Country"
+f.yaxis.axis_label = "General Happiness Score (0-10) per Country"
+
 #RETURNS FIGURE. JUST DO show(f)
 def get():
     global f
